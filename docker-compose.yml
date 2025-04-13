@@ -1,0 +1,6 @@
+services:
+  desplieguedelproyectobd:
+    image: desplieguedelproyectobd
+    build:
+      context: .
+      dockerfile: ./Dockerfile
